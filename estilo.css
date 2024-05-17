@@ -1,0 +1,126 @@
+/* Estilo geral */
+
+body {
+  font-family: Open Sans, sans-serif; /* Fonte do texto principal */
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4; /* Cor de fundo principal (opcional) */
+}
+
+header {
+  background-color: #248f8d; /* Cor de fundo do cabeçalho */
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-family: Playfair Display, serif; /* Fonte do título principal */
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-family: Lato, sans-serif; /* Fonte dos links de navegação */
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-family: Playfair Display, serif; /* Fonte dos títulos h2 */
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #248f8d; /* Cor dos títulos h2 */
+}
+
+p {
+  line-height: 1.6;
+  color: #605063; /* Cor do texto principal */
+}
+
+/* Páginas específicas */
+
+#sobre {
+  text-align: justify;
+}
+
+#formacao ul {
+  padding: 0;
+}
+
+#formacao li {
+  margin-bottom: 10px;
+}
+
+#projetos ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+#projetos li {
+  margin-bottom: 15px;
+}
+
+#projetos h3 {
+  font-family: Playfair Display, serif; /* Fonte dos títulos h3 em projetos */
+
+/* Estilos para os campos do formulário */
+
+.campo {
+  margin-bottom: 15px; /* Adiciona espaço entre os campos */
+}
+
+.campo label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.campo input,
+.campo textarea {
+  width: 100%; /* Campos ocupam a largura total */
+  padding: 10px; /* Espaço interno dos campos */
+  border: 1px solid #ccc; /* Borda dos campos */
+  border-radius: 4px; /* Cantos arredondados */
+  font-family: inherit; /* Inherda a fonte do corpo (Open Sans) */
+}
+
+/* Estilos para o botão de envio */
+
+.btn {
+  background-color: #248f8d; /* Cor de fundo do botão */
+  color: #fff; /* Cor do texto do botão */
+  padding: 10px 20px; /* Espaço interno do botão */
+  border: none; /* Remove a borda padrão do botão */
+  border-radius: 4px; /* Cantos arredondados do botão */
+  cursor: pointer; /* Cursor muda para "mão" ao passar o mouse */
+  transition: background-color 0.2s ease-in-out; /* Efeito de transição na cor de fundo */
+}
+
+.btn:hover {
+  background-color: #1e7e7a; /* Cor de fundo do botão ao passar o mouse */
+}
+
+/* Estilos para responsividade (exemplo para telas menores que 768px) */
+
+@media (max-width: 768
+
+
